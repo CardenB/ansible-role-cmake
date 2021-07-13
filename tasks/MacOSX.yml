@@ -1,0 +1,5 @@
+- name: Install Cmake for MacOS
+  become: no
+  homebrew:
+      name: cmake
+      state: latest
