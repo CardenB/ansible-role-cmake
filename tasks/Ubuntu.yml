@@ -32,7 +32,7 @@
     create: yes
     insertafter: EOF
     mode: 0664
-    marker_begin: "ADD CMAKE TO PATH"
+    marker_begin: " {mark} ADD CMAKE TO PATH"
     block: |
       export PATH={{ cmake_install_dir }}/bin:$PATH
 
