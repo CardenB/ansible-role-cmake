@@ -34,7 +34,7 @@
     mode: 0664
     marker_begin: " {mark} ADD CMAKE TO PATH"
     block: |
-      export PATH={{ cmake_install_dir }}/bin:$PATH
+      export PATH={{ cmake_install_dir }}bin:$PATH
 
 - name: Source bashrc
   include_role:
